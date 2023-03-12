@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+    <link rel="stylesheet" href="style3.css">
+    <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div id="header-top">
+            <a href="index.html" id="back">← Atpakaļ uz sākumlapu</a>
+        </div>
+        <div id="header-mid">
+            <H1>Publiskā datubāze</H1>
+            <p style="font-size:1.3rem; font-weight: 500; text-decoration: underline deepskyblue;">Šajā datubāzē Tu vari apskatīti pieejamās vielas un aprīkojumu</p>
+        </div>
+        <div id="header-bot">
+            <input type="text" class="textbox" placeholder="Search">
+            <a href="" class="btn btn1" id="show-all">Rādīt visu</a>
+            <a href="" class="btn btn2" id="show-vielas">Rādīt vielas</a>
+            <a href="" class="btn btn2" id="show-inventars">Rādīt aprīkojumu</a>
+        </div>
+    </div>
+    <hr>
+    <div class="main">
+        <table>
+            <thead>
+                <tr class="table-header">
+                    <td class="centered">
+                        ID
+                    </td>
+                    <td>
+                        Nosaukums
+                    </td>
+                    <td>
+                        Tips
+                    </td>
+                    <td>
+                        Apakštips
+                    </td>
+                    <td>
+                        Skaits
+                    </td>
+                    <td>
+                        Svars
+                    </td>
+                    <td>
+                        Komentāri
+                    </td>
+                </tr>
+            </thead> 
+            <tbody id="table-body">
+            </tbody>             
+        </table>
+    </div>
+    <div class="footer">
+        <a href="" class="btn btn3">Ziņot par kļūdu</a>
+    </div>
+</body>
+</html>

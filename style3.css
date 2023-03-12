@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    overflow: auto;
+    padding: 2% 3%;
+}
+
+.header {
+    padding-bottom: 1%;
+}
+
+#back {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: black;
+}
+
+#back:hover {
+    font-size: 1.4rem;
+    color:deepskyblue;
+    text-decoration: none;
+}
+
+H1 {
+    font-size: 3.5rem;
+    color: deepskyblue;
+}
+
+#header-bot {
+    margin-top: 2%;
+}
+
+.btn {
+    margin-left: 1%;
+    position: relative;
+    font-size: 1.4rem;
+    border: 2px solid deepskyblue;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 6px 20px;
+}
+
+.btn1 {
+    background-color: deepskyblue;
+    color: white;
+}
+
+.btn2 {
+    color: deepskyblue;
+}
+
+.textbox {
+    width: 20%;
+    height: 10%;
+    background: url(search.png) no-repeat scroll 5px 5px;
+    background-size: 20px;
+    padding: 7px 30px;
+    border-radius: 30px;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+}
+
+.table-header {
+    background-color:#292929;
+    color:white;
+
+}
+
+.centered {
+    text-align: center;
+    padding: 0.8%;
+}
+
+.painted {
+    background-color:rgb(229, 241, 241);
+}
+
+.btn3 {
+    color:white;
+    background-color: lightcoral;
+    border: 2px solid lightcoral;
+    border-radius: 0;
+    float:right;
+}
